@@ -1,1 +1,33 @@
 
+
+h1{
+    text-align: center;
+}
+body{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.board{
+    
+    height: 500px;
+    width:500px;
+    border-radius: 5px;
+    border-style: solid;
+}
+td {
+    width: 160px;
+    height: 160px;
+  }
+
+  .vert {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+  }
+  .hori {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
